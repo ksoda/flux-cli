@@ -1,2 +1,3 @@
 # f.lux driver
-1. `./run.rb &`
+1. `cd flux-cli`
+2. `./run.rb &`
