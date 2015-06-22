@@ -4,7 +4,7 @@ require 'yaml'
 
 ::Geocoder.configure timeout: 10
 module Flux
-	SETTING = 'setting.yml'
+	SETTING = Flux.root_join 'setting.yml'
   # DEFAULT_LOC = [33, 130] # Fukuoka
 	Location = Struct.new :latitude, :longitude do
 		def self.from_yaml(file_name=SETTING)
