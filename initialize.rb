@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'bundler/setup'
+
 module Flux
   ROOT = File.dirname(__FILE__)
 	def self.root_join(path)
